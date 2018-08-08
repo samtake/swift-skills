@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (4.7.2)
+  - DZNEmptyDataSet (1.8.1)
+  - Hero (1.2.0)
+  - IQKeyboardManagerSwift (6.0.3)
+  - Kingfisher (4.8.0)
+  - NVActivityIndicatorView (4.2.1):
+    - NVActivityIndicatorView/Presenter (= 4.2.1)
+  - NVActivityIndicatorView/Presenter (4.2.1)
+  - PGDatePicker (2.4.4):
+    - PGPickerView
+  - PGPickerView (1.2.6)
+  - QRCodeReader.swift (8.2.0)
+  - SnapKit (4.0.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftyJSON (4.1.0)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - DZNEmptyDataSet
+  - Hero
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - NVActivityIndicatorView
+  - PGDatePicker (>= 1.3.0)
+  - QRCodeReader.swift (~> 8.2.0)
+  - SnapKit
+  - SQLite.swift
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DZNEmptyDataSet
+    - Hero
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - NVActivityIndicatorView
+    - PGDatePicker
+    - PGPickerView
+    - QRCodeReader.swift
+    - SnapKit
+    - SQLite.swift
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Hero: 33dadf2cd1c98af71e213dcbc2902e6e03622a4e
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  NVActivityIndicatorView: 8068ba3ad39cb44cbaab25d89ff2546b3f092681
+  PGDatePicker: abe5103a83ce1f99e588308f8e39ae0b65d7c162
+  PGPickerView: 8fbbf63d0404065a43a495a0115d339455e0f819
+  QRCodeReader.swift: 003eb32f18a5a675b936ec82ba0ff368cddbff45
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: 4fe85c09806825f43398affd7acf362252982441
+
+COCOAPODS: 1.5.2

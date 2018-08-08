@@ -9,6 +9,22 @@
 import UIKit
 import CoreData
 
+
+//MARK: - 引导页设置
+//private func showLeadpage() -> UIViewController{
+//    let display_Name = YXAppManager.appBundle(bundle: YXBundle.Display_Name)
+//    let currentVersion = YXAppManager.appBundle(bundle: YXBundle.Version)
+//    let oldVersion = UserDefaults.standard.object(forKey: display_Name)
+//
+//    if oldVersion == nil || currentVersion.compare(oldVersion as! String) == .orderedDescending {
+//        UserDefaults.standard.set(currentVersion, forKey: display_Name)
+//        UserDefaults.standard.synchronize()
+//        //引导页设置
+//        return YXGuideViewController()
+//    }
+//    return YXLoginViewController()
+//}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,7 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        //self.window?.rootViewController = YXNavController(rootViewController: showLeadpage())
+        self.window?.rootViewController = STTabBarViewController()
+        self.window?.makeKeyAndVisible()
         return true
     }
 
